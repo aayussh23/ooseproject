@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Tools Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            height: 100vh;
+            background-image: url('i.jfif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            justify-content: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-left: 70px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0px 50px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .tool {
+            margin-bottom: 15px;
+        }
+
+        .tool h3 {
+            margin: 0;
+        }
+
+        .tool a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .tool a:hover {
+            text-decoration: underline;
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu > li {
+            position: left;
+        }
+
+        .menu > li > a {
+            display: block;
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu > li > a:hover {
+            background-color: #575757;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown li a {
+            padding: 10px 15px;
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown li a:hover {
+            background-color: #575757;
+        }
+
+        .menu > li:hover .dropdown {
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 0.5px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: -540px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GameTech Insights</h1>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="#tools">Tools</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Consoles</a></li>
+                        <li><a href="#">Stimulators</a></li>
+                        <li><a href="#">Keyboard</a></li>
+                    </ul>
+                </li>
+                <li><a href="aboutUs.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Gaming Tools Information</h1>
+            <p>Welcome to the gaming tools information page. Here you will find details about various gaming tools.</p>
+            <div class="tool">
+                <h3>Consoles</h3>
+                <p>Information about gaming consoles.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="tool">
+                <h3>Stimulators</h3>
+                <p>Information about gaming stimulators.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="tool">
+                <h3>Keyboards</h3>
+                <p>Information about gaming keyboards.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GameTech Insights. All rights reserved.</p>
+    </footer>
+</body>
+</html>
